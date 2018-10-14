@@ -1,5 +1,5 @@
-const Group = require('./index')
-const Mean = require('../online-mean/index')
+const Group = require('./')
+const Mean = require('online-mean')
 
 const group = Group(Mean(), Mean())
 

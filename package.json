@@ -1,0 +1,30 @@
+{
+  "name": "online-group",
+  "version": "0.0.1",
+  "description": "Group multiple stats into one Group object",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlinestats/online-group.git"
+  },
+  "keywords": [
+    "stats",
+    "statistics",
+    "online",
+    "algorithms"
+  ],
+  "author": "Anton Zemlyansky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlinestats/online-group/issues"
+  },
+  "homepage": "https://github.com/onlinestats/online-group#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "online-mean": "^1.1.1",
+    "tape": "^4.9.1"
+  }
+}
